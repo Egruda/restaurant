@@ -1,3 +1,5 @@
+import logoimg from './logo.jpg';
+
 export default function initial() {
 
     const content = document.querySelector('#content');
@@ -8,7 +10,7 @@ export default function initial() {
     title.textContent = "Welcome to Pronto's Pizza!";
     
     const logo = new Image();
-    logo.src = '../src/logo.jpg';
+    logo.src = logoimg;
     logo.setAttribute('alt', 'logo');
     logo.setAttribute('id', 'logo');
     
@@ -39,7 +41,7 @@ export function initialTab() {
     title.textContent = "Welcome to Pronto's Pizza!";
     
     const logo = new Image();
-    logo.src = '../src/logo.jpg';
+    logo.src = logoimg;
     logo.setAttribute('alt', 'logo');
     logo.setAttribute('id', 'logo');
     

@@ -1,3 +1,5 @@
+import storeimg from './store.jpg';
+
 export default function contact() {
 
     const content = document.createElement('div');
@@ -8,7 +10,7 @@ export default function contact() {
     contactUs.textContent = "Contact Us";
     
     const store = document.createElement('img');
-    store.src = '../src/store.jpg';
+    store.src = storeimg;
     store.setAttribute('alt', 'store');
     store.setAttribute('id', 'store');
     

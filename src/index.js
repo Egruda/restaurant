@@ -1,10 +1,11 @@
 import initial, {initialTab} from './initial.js';
 import contact from './contact.js';
 import menu from './menu.js';
-import logo from './logo.jpg';
-import pizza from './pizza.jpg';
-import store from './store.jpg';
 import './style.css';
+import logoimg from './logo.jpg';
+import storeimg from './store.jpg';
+
+
 
 initial();
 
