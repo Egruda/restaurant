@@ -1,0 +1,16 @@
+        <h1 class="title">Welcome to Pronto's Pizza!</h1>
+        <img id="logo" src="../src/logo.webp" alt="logo">
+        <div class="about">
+            <p>We are the best Pizza in town. Our pizza use 100% 00 flour imported from Italy to bring authentic Italian pizza. All of our sauces are homemade, cooked for over 24 hours. We also only use the freshest and highest-quality ingredients in our Pizza.</p>
+            <h2>"Pronto, original Pizza!"</h2>
+        </div>
+
+
+    const contentToDelete = document.querySelector('#content');
+    contentToDelete.remove();
+
+    
+    
+    const content = document.createElement('div');
+    content.setAttribute('id', 'content');
+    
